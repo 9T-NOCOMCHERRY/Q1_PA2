@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LIST</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        body{
+        background-color: #50412a;
+        color: bisque;
+
+        }
+h1{
+background-color: rgb(28, 65, 61);
+}
+
+p{
+
+color: rgb(238, 199, 126);
+
+}
+
+dt{
+font-style: italic;
+color: rgb(199, 157, 102);
+}
+
+h5{
+font-style: italic;
+color: beige;
+}
+
+li{
+font-style: italic;
+color: rgb(28, 65, 61);
+}
+
+
+
+    .desc-list{
+        border: 2px dashed rgb(147, 136, 97);
+        background-color: rgb(28, 65, 61);
+        padding: 10px;
+        box-shadow: 15px 15px 10px rgba(10, 24, 23, 0.609);
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .nested-list{
+        border: 2px dashed rgb(27, 100, 93);
+        background-color: rgb(168, 150, 93);
+        padding: 10px;
+        box-shadow: 15px 15px 10px rgba(24, 17, 10, 0.609);
+        margin-bottom: 10px;
+        border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+    <h1>The Owl and the Cat</h1><hr>
+    <p>The Owl looked up to the stars above, <br>
+    And sang to a small guitar, <br>
+    "O lovely Cat! O Cat, my love, <br>
+    What a beautiful Cat you are, <br>
+    You are, You are! <br>
+    What a beautiful Cat you are!"
+    </p>
+
+    <!--DESCRIPTION LIST-->
+    <div class="desc-list">
+        <h5 style="color:rgb(199, 157, 102)">DESCRIPTION LIST</h5>
+        <dl>
+
+<dl>
+    <dt>Bunny
+            <dd>Small fluffy short tempered social pet.</dd>
+     </dt>
+
+        <dt>Dog
+            <dd>A friendly pal, that's always by your side.</dd>
+        </dt>
+
+        <dt>Cat
+            <dd>Sharps claws, quiet walkers, aura monster.</dd>
+        </dt>
+</dl>
+    </div>
+
+    <!--NESTED LIST-->
+    <div class ="nested-list">
+        <h5 style="color: rgb(21, 60, 55);">ICT Q1 WORK PLAN</h5>
+        
+        <ol style="list-style-type: upper-roman;">
+            <li>INTRO TO HTML</li>
+        <ol style="list-style-type: upper-alpha;">
+            <li style="color: rgb(38, 87, 87);">What is HTML?</li>
+            <li style="color: rgb(38, 87, 87);">HTML Structure</li>
+            <li style="color: rgb(38, 87, 87);">Text Editor</li>
+        </ol>
+            <li>HTML LIST, LINKS AND IMAGES</li>
+            <ol>
+                <li style="color: rgb(38, 87, 87);">sss</li>
+                <li style="color: rgb(38, 87, 87);">sss</li>
+                <li style="color: rgb(38, 87, 87);">ss</li>
+            </ol>
+        </ol>
+    </div>
+
+</body>
+</html>
